@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",    //Especifi wich language has to compile                                 
+    "target": "es5",    //Especifi wich language has to compile                                 
     "module": "commonjs",                               
    // "esModuleInterop": true,                             
     //"forceConsistentCasingInFileNames": true,
