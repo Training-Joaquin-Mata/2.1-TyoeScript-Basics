@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",    //Especifi wich language has to compile                                 
+    "target": "es6",    //Especifi wich language has to compile                                 
     "module": "commonjs",                               
    // "esModuleInterop": true,                             
     //"forceConsistentCasingInFileNames": true,
     "strict": true,                                   
     //"skipLibCheck": true,
      "outDir": "dist",
-     "lib": ["dom", "ES6"]
+     "lib": ["dom", "ES6"],
+     "noImplicitAny": true,
   }
 }

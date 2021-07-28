@@ -1,0 +1,31 @@
+//Object Destructuring
+const pizza= {
+    name: 'Pepperoni',
+    toppings: ['pepperoni']
+
+};
+
+function order({name: pizzaName, toppings: pizzaToppings}: any){
+
+return {pizzaName, pizzaToppings};
+
+}
+
+
+const {pizzaName}=order(pizza);
+
+console.log(pizzaName)
+
+//Array Deconstructuring
+
+const toppings=['Pepperoni', 'Bacon', 'Chilli'];
+
+const firstItem=toppings[0];
+
+const [first, second, third]= toppings;
+
+console.log(first, second, third);
+
+function logToppings([first, second, third]: any){
+    console.log(first, second, third);
+}
