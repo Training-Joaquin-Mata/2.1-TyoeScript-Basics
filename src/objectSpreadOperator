@@ -1,0 +1,19 @@
+
+const pizza = { 
+    name:'pepperoni'
+
+ }
+
+
+
+const toppings= 'Pepperoni';
+
+
+const order= {...pizza, toppings }
+
+console.log(order)
+
+
+const newOrder= Object.assign({}, pizza, {toppings});
+
+console.log(newOrder)
