@@ -1,0 +1,7 @@
+const toppings= ['Bacon', 'Chilli'];
+
+const newToppings= ['Pepperoni'];
+
+const allToppings = [...toppings, ...newToppings];
+
+console.log(allToppings);
